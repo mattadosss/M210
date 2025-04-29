@@ -1,4 +1,4 @@
 FROM nginx
 
 
-COPY /app/web
+COPY ./app/web /usr/share/nginx/html
