@@ -17,8 +17,7 @@ spec:
     spec:
       containers:
       - name: html-openshift-app
-        image: >-
-          image-registry.openshift-image-registry.svc:5000/254030-zlimweber1/html-openshift-app:latest
+        image: image-registry.openshift-image-registry.svc:5000/254030-zlimweber1/html-openshift-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

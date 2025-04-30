@@ -12,8 +12,8 @@ spec:
       kind: ImageStreamTag
       name: 'html-openshift-app:latest'
   resources: {}
-  successfulBuildsHistory: 5
-  failedBuildsHostoryLimit: 5
+  successfulBuildsHistoryLimit: 5
+  failedBuildsHistoryLimit: 5
   strategy:
     type: Source
     sourceStrategy:
